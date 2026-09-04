@@ -1,0 +1,13 @@
+{
+  "name": "doctor-appointment-system",
+  "version": "1.0.0",
+  "description": "Doctor Appointment Booking System (MERN Stack)",
+  "scripts": {
+    "install-all": "npm install --prefix backend && npm install --legacy-peer-deps --prefix frontend",
+    "seed": "node backend/seed.js",
+    "backend": "npm --prefix backend run start",
+    "backend-dev": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "build-frontend": "npm --prefix frontend run build"
+  }
+}
